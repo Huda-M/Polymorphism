@@ -43,21 +43,21 @@ class Product
         }
     }
 }
-$product=new product( "phone",5000,"samsung","image of first product","first product",.1);
+$product=new product( "phone",5000,"samsung","../images/image1.png","first product",.1);
 echo $product->get_name();
 echo "<br>";
 echo $product->Price_after_discound(.1);
 echo "<br>";
 echo $product->Get_finall_price();
 echo "<br><br>";
-$product=new product( "lab",50000,"samsung","image of secound product","secound product",.5);
+$product=new product( "lab",50000,"samsung","../images/image2.png","secound product",.5);
 echo $product->get_name();
 echo "<br>";
 echo $product->Price_after_discound(.3);
 echo "<br>";
 echo $product->Get_finall_price();
 echo "<br><br>";
-$product=new product( "tab",15000,"samsung","image of third product","secound product",.3);
+$product=new product( "tab",15000,"samsung","../images/image3.png","secound product",.3);
 echo $product->get_name();
 echo "<br>";
 echo $product->Price_after_discound(.2);
